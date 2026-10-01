@@ -70,6 +70,66 @@
 </table>
   <hr>
 
+     <h1>FORM ĐĂNG KÝ SINH VIÊN</h1>
+
+    <form action="#" method="post">
+
+
+        <label>Họ và tên:</label>
+        <input type="text" name="hoten"
+               placeholder="Nhập họ và tên" required>
+        <br><br>
+
+
+        <label>Email:</label>
+        <input type="email" name="email"
+               placeholder="example@gmail.com" required>
+        <br><br>
+
+
+        <label>Mật khẩu:</label>
+        <input type="password" name="matkhau"
+               placeholder="Nhập mật khẩu">
+        <br><br>
+
+     
+        <label>Giới tính:</label>
+        <input type="radio" name="gioitinh" value="Nam"> Nam
+        <input type="radio" name="gioitinh" value="Nu"> Nữ
+        <input type="radio" name="gioitinh" value="Khac"> Khác
+        <br><br>
+
+        <label>Sở thích:</label>
+        <input type="checkbox" name="sothich" value="The thao"> Thể thao
+        <input type="checkbox" name="sothich" value="Am nhac"> Âm nhạc
+        <input type="checkbox" name="sothich" value="Du lich"> Du lịch
+        <br><br>
+
+   
+        <label>Ngành học:</label>
+        <select name="nganhhoc">
+            <option value="">-- Chọn ngành học --</option>
+            <option value="CNTT">Công nghệ thông tin</option>
+            <option value="Kinh te">Kinh tế</option>
+            <option value="Dien tu">Điện tử</option>
+        </select>
+        <br><br>
+
+   
+        <label>Ghi chú:</label>
+        <br>
+        <textarea name="ghichu" rows="5" cols="40"
+                  placeholder="Nhập ghi chú của bạn..."></textarea>
+        <br><br>
+
+     
+        <input type="submit" value="Đăng ký">
+
+        <input type="reset" value="Nhập lại">
+
+    </form>
+
+
 
 </body>
 </html>
